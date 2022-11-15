@@ -4,7 +4,7 @@ import 'package:simple_webview/webview.dart';
 class MyHomePage extends StatelessWidget {
   MyHomePage({super.key});
 
-  final ctrl = TextEditingController();
+  final ctrl = TextEditingController(text: "http://192.168.1.106:3000");
 
   @override
   Widget build(BuildContext context) {
